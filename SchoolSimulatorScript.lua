@@ -21,7 +21,7 @@ local coins = Auto:Toggle('Farm Coins', {flag = "toggle1"}, function(state)
 end)
 
 
-local AA = Auto:Toggle('Auto Athleticism', {flag = "toggle1"}, function(state)
+local AA = Auto:Toggle('Auto Athleticism', {flag = "toggle2"}, function(state)
     DoClicks = state
     while DoClicks do
         wait()
@@ -29,7 +29,7 @@ local AA = Auto:Toggle('Auto Athleticism', {flag = "toggle1"}, function(state)
     end
 end)
 
-local AI = Auto:Toggle('Auto Intelligence', {flag = "toggle1"}, function(state)
+local AI = Auto:Toggle('Auto Intelligence', {flag = "toggle3"}, function(state)
     DoClicks = state
     while DoClicks do
         wait()
@@ -37,7 +37,7 @@ local AI = Auto:Toggle('Auto Intelligence', {flag = "toggle1"}, function(state)
     end
 end)
 
-local AP = Auto:Toggle('Auto Popularity', {flag = "toggle1"}, function(state)
+local AP = Auto:Toggle('Auto Popularity', {flag = "toggle4"}, function(state)
     DoClicks = state
     while DoClicks do
         wait()
