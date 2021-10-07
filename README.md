@@ -1,4 +1,13 @@
-#Scripts
+Some scripts, GUIs or whatever
 
-Where I put my script guis, If you want to find some of the scripts
-used to make the GUI head to Misc-Scripts {
+---------------------------------------------
+
+Discord Server: discord.gg/fyfm6zbmjq
+
+Discord Account: Calku#9625
+
+Roblox Account: CookiScripts
+
+---------------------------------------------
+
+Enjoy ig.
