@@ -2,7 +2,7 @@ local CoreGui = game:GetService("StarterGui")
 
 CoreGui:SetCore("SendNotification", {
 	Title = "Instructions";
-	Text = "Kill something, then use the focus giver, The focus giver will turn your RC to negitave. Use the Yen changer to turn Focus into Yen.";
+	Text = "The focus giver will turn your RC to negitave. Use the Yen changer to turn Focus into Yen.";
 	Duration = 100000;
 	Button1 = "Got it.";
 })
