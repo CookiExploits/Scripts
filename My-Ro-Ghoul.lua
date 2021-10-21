@@ -1,16 +1,47 @@
+for i = 1, 100 do
+local args = {
+    [1] = "Q",
+    [2] = "Down",
+    [3] = CFrame.new(999, 999, 999),
+    [4] = CFrame.new(999, 999, 999)
+}
+
+game:GetService("Players").LocalPlayer.Character.Remotes.KeyEvent:FireServer(unpack(args))
+
+wait(0.1)
+
+local args = {
+    [1] = "Q",
+    [2] = "Up",
+    [3] = CFrame.new(999, 999, 999),
+    [4] = CFrame.new(999, 999, 999)
+}
+
+game:GetService("Players").LocalPlayer.Character.Remotes.KeyEvent:FireServer(unpack(args))
+end
+
+wait(0.99)
+
 local CoreGui = game:GetService("StarterGui")
 
 CoreGui:SetCore("SendNotification", {
 	Title = "Instructions";
-	Text = "The focus giver will turn your RC to negitave. Use the Yen changer to turn Focus into Yen.";
-	Duration = 100000;
+	Text = "If the punches at the start doesn't get you to level 2, punch until you are level 2.";
+	Duration = math.huge;
+	Button1 = "Got it.";
+})
+
+CoreGui:SetCore("SendNotification", {
+	Title = "Instructions";
+	Text = " The focus giver will turn your RC to negitave. Use the Yen changer to turn Focus into Yen.";
+	Duration = math.huge;
 	Button1 = "Got it.";
 })
 
 CoreGui:SetCore("SendNotification", {
 	Title = "Continuation";
 	Text = "Buy something to reset your RC back to 800. 1 focus in the focus giver gives 2 focus so be catious.";
-	Duration = 100000;
+	Duration = math.huge;
 	Button1 = "Mhmm..";
 })
 
