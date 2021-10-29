@@ -32,18 +32,24 @@ plr.HumanoidRootPart.CFrame = CFrame.new(2859.50903, 1322.32886, -269.634399)
 end)
 
 s:Slider("Walkspeed",{
-    min = 16;
-    max = 200;
-    precise = false;
+    min = 16; -- min value of the slider
+    max = 200; -- max value of the slider
+    precise = false; -- max 2 decimals
 },function(value)
+while wait() do
     game:GetService("Players").LocalPlayer.Character.Humanoid.WalkSpeed = value
-end)
+end
+end
+)
 
 
 s:Slider("Jumppower",{
-    min = 50;
-    max = 500;
-    precise = false;
+    min = 50; -- min value of the slider
+    max = 500; -- max value of the slider
+    precise = false; -- max 2 decimals
 },function(value2)
+while wait() do
     game:GetService("Players").LocalPlayer.Character.Humanoid.JumpPower = value2
-end)
+end
+end
+)
