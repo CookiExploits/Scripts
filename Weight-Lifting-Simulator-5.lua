@@ -1,9 +1,5 @@
 local tool = game.Players.LocalPlayer.Backpack.Weight or game.Players.LocalPlayer.Character.Weight
 
-_G.Options = {
-['AutoFarm'] = false
-}
-
 local library = loadstring(game:HttpGet(('https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wall%20v3')))()
 
 local w = library:CreateWindow("WLS 5")
@@ -32,7 +28,7 @@ plr.HumanoidRootPart.CFrame = CFrame.new(2859.50903, 1322.32886, -269.634399)
 end)
 
 s:Slider("Walkspeed",{
-    min = 16; -- min value of the slider
+    min = 9; -- min value of the slider
     max = 200; -- max value of the slider
     precise = false; -- max 2 decimals
 },function(value)
