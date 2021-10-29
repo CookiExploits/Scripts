@@ -28,18 +28,18 @@ CoreGui:SetCore("SendNotification", {
 	Title = "Instructions";
 	Text = "If the punches at the start doesn't get you to level 2, punch until you are level 2.";
 	Duration = math.huge;
-	Button1 = "Got it.";
+	Button1 = "Okay..";
 })
 
 CoreGui:SetCore("SendNotification", {
-	Title = "Instructions";
+	Title = "Continuation";
 	Text = " The focus giver will turn your RC to negitave. Use the Yen changer to turn Focus into Yen.";
 	Duration = math.huge;
 	Button1 = "Got it.";
 })
 
 CoreGui:SetCore("SendNotification", {
-	Title = "Continuation";
+	Title = "Continuation 2";
 	Text = "Buy something to reset your RC back to 800. 1 focus in the focus giver gives 2 focus so be catious.";
 	Duration = math.huge;
 	Button1 = "Mhmm..";
